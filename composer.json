@@ -1,0 +1,38 @@
+{
+	"name":"cliffparnitzky/tiny-mce-underline",
+	"description":"Special TinyMCE plugin to add underline support.",
+	"keywords":["contao","tinymce","tiny editor","tinymce plugin","underline","tinymce4"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/cliffparnitzky/TinyMceUnderline/issues",
+		"source":"https://github.com/cliffparnitzky/TinyMceUnderline"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.3.0,<3.5",
+		"contao-community-alliance/composer-installer":"*",
+		"cliffparnitzky/tiny-mce-plugin-loader":">=2.0.0"
+	},
+	"conflict": {
+		"contao/core":"3.4.0,3.4.1,3.4.2"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/TinyMceUnderline":"system/modules/TinyMceUnderline"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
